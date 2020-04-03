@@ -39,6 +39,7 @@
 #define VOL_MIN 2 		   	   
 #define doggieTickle() resetTime = millis();
 #define TIMEOUTPERIOD 15000
+#define HANDLE_TAGS
 
 DS3231 clock;
 TMRpcm tmrpcm;
